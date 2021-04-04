@@ -38,7 +38,7 @@ hr{
   background-color:  #407BFF;
   color:#407BFF;
   width: 60px;
-  size: 2px;
+  height: 2px;
   padding: 0;
   margin: 0 auto;
   margin-bottom: 30px;
@@ -232,7 +232,6 @@ h2{
     margin: 0 0 15px 0;
   }
   .treti .sekceText{
-    width: 430px;
     margin: 0 60px 0 0;
     text-align: left;
     display: flex;
@@ -240,7 +239,6 @@ h2{
     justify-content: center;
   }
 }
-  
 }
 
 
