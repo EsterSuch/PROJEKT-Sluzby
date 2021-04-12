@@ -29,20 +29,19 @@ h1{
   margin: 40px 0 10px 0;
 }
 
+h1::after{
+  content: "";
+  background-color:#407BFF;
+  width: 60px;
+  height: 2px;
+  margin-bottom: 30px;
+  display: block;
+  margin: 10px auto 30px auto;
+}
+
 h2{
   font-size: 16px;
   margin: 60px 0 15px 0;
-}
-
-hr{
-  background-color:  #407BFF;
-  color:#407BFF;
-  width: 60px;
-  height: 2px;
-  padding: 0;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  text-align: center;
 }
 
 .text{
@@ -182,8 +181,8 @@ h2{
   .prvniLeva h1, .prvniLeva .text{
     text-align: left;
   }
-  .prvniLeva hr{
-    margin-left: 0;
+  h1::after{
+    margin: 10px auto 30px 0;
   }
   .prvniLeva .text p{
     max-width: 490px;
